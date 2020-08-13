@@ -1,0 +1,602 @@
+body{
+  font-family: "Karla";
+
+}
+h1{
+  font-family: 'DM Serif Display';
+}
+a{
+  color: black;
+  font-weight: 700;
+}
+
+.container-fluid{
+  padding: 0 200px 0 200px;
+}
+
+.sec{
+  background-color: #36313A;
+  color: white;
+  position: relative;
+  height: 700px;
+
+
+
+
+}
+
+.imager{
+  position:absolute;
+  top: 150px;
+
+  z-index: 9;
+  height: 450px;
+  width: 500px;
+  transform: translateY(-20%);
+
+  right: 0%;
+
+
+}
+
+.imagel{
+  position: absolute;
+  top: 500px;
+}
+
+.fam{
+  position: absolute;
+  z-index: 9;
+  top: 100px;
+  left: 150px;
+  height: 700px;
+
+
+
+}
+.section{
+  padding-top: 200px;
+
+}
+.bot{
+position: relative;
+background-color: #36313A;
+color: white;
+width: 1500px;
+height: 200px;
+overflow: hidden;
+}
+
+.imgb{
+position: absolute;
+height: 500px;
+width: 400px;
+right: 0;
+top:-100px;
+
+
+}
+.linkcolor{
+float: right;
+color: #606060;
+padding-right: 10px;
+}
+.linkcolor:hover{
+  color: black;
+}
+.log{
+
+padding-top: 100px;
+background-color: #FAFAFA;
+}
+.foot {
+border-style: none;
+border-top-style: solid;
+border-color: grey;
+border-width: 1px;
+width: 98%;
+padding-bottom: 25px;
+
+}
+.mid{
+border-style: none;
+border-top-style: solid;
+border-color: black;
+border-width: 1px;
+width: 5%;
+margin-left: 0;
+margin-right: 1000px;
+}
+.tophr{
+border-style: none;
+border-top-style: solid;
+border-color: white;
+border-width: 1px;
+width: 25%;
+margin-left: 0;
+margin-right: 1250px;
+}
+.tex{
+font-size: 6rem;
+padding-right: 15px;
+font-family: 'DM Serif Display';
+}
+.famtext{
+left: 0;
+top: 0;
+font-size: 1.3rem;
+}
+.famcol{
+padding-top: 100px;
+}
+
+.famobile{
+  display: none;
+}
+.leftmobile{
+  display: none;
+}
+.rightmobile{
+  display: none;
+}
+.how{
+  display: none;
+}
+.clo{
+ display: none;
+}
+.navpa{
+  display: none;
+}
+
+.cen{
+  font-size: 700;
+  font-size: 6rem;
+  padding-bottom: 100px;
+}
+.head1{
+  font-weight: 700;
+}
+.imap{
+  padding-bottom: 50px;
+}
+.dif{
+  padding-bottom: 100px;
+}
+.fin{
+  display: inline-block;
+
+width: 50%;
+}
+.but{
+background-image: urL(../images/bg-pattern-intro-right-desktop.svg);
+background-position: right;
+background-repeat: no-repeat;
+background-size: 800px auto;
+float: right;
+padding: 350px 0 0 100px;
+width: 50%;
+}
+.find{
+  font-weight: 700;
+  font-size:3.5rem;
+  padding: 50px 0 0 100px;
+  width: 85%;
+}
+.bot{
+  height: 250px;
+
+}
+.btnb{
+  position: absolute;
+top:100px;
+left:1200px;
+background-color: transparent;
+border-color: white;
+
+}
+.btnb:hover{
+  border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    background-color: white;
+    color: black;
+}
+.famtext{
+  color: #F5F5F5;
+}
+.btext{
+  color: #A0A0A0;
+}
+.findc{
+  padding-bottom: 200px;
+}
+.ftext{
+  color:#A0A0A0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.ftexth{
+font-size: 1rem;
+font-weight: 700;
+}
+.footima{
+  position: absolute;
+}
+.bot{
+  width: 100%;
+}
+.footimb{
+display: none;
+}
+.footp{
+  padding-bottom: 25px;
+}
+.btnt{
+  border-color: black;
+  background-color: transparent;
+  color: black;
+}
+.btnt:hover{
+  color:white;
+  background-color: black;
+
+  border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.btnf{
+  background-color: transparent;
+  border-color: white;
+}
+.btnf:hover{
+  border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    background-color: white;
+    color: black;
+}
+.linktop{
+  color: #A0A0A0;
+}
+.linktop:hover{
+  color: black;
+}
+
+@media only screen and (max-width: 1500px)
+{
+  .container-fluid{
+    padding: 0 200px 0 200px;
+  }
+
+  .sec{
+    background-color: #36313A;
+    color: white;
+    position: relative;
+    height: 700px;
+
+
+
+
+  }
+
+
+  .imager{
+    position:absolute;
+    top: 150px;
+
+    z-index: 9;
+    height: 450px;
+    width: 400px;
+    transform: translateY(-20%);
+
+    right: 0%;
+
+
+  }
+
+  .imagel{
+    position: absolute;
+    top: 500px;
+  }
+
+  .fam{
+    position: absolute;
+    z-index: 9;
+    top: 100px;
+    left: 150px;
+    height: 700px;
+    width: 100%;
+
+
+
+  }
+  .section{
+    padding-top: 200px;
+
+  }
+.bot{
+  position: relative;
+  background-color: #36313A;
+  color: white;
+  width: 1500px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.imgb{
+  position: absolute;
+  height: 500px;
+  width: 400px;
+  right: 0;
+  top:-100px;
+
+
+}
+.linkcolor{
+  float: right;
+}
+.log{
+
+padding-top: 100px;
+  background-color: #FAFAFA;
+}
+.foot {
+  border-style: none;
+  border-top-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  width: 98%;
+
+}
+.mid{
+  border-style: none;
+  border-top-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 5%;
+  margin-left: 0;
+  margin-right: 1000px;
+}
+.tophr{
+  border-style: none;
+  border-top-style: solid;
+  border-color: white;
+  border-width: 1px;
+  width: 25%;
+  margin-left: 0;
+  margin-right: 1250px;
+}
+.tex{
+  font-size: 5rem;
+  padding-right: 30px;
+}
+.famtext{
+ left: 0;
+ top: 0;
+ font-size: 1rem;
+}
+.famcol{
+  padding-top: 100px;
+}
+.btnb{
+  left: 800px;
+}
+.find{
+
+padding-left: 50px;
+
+}
+.findc{
+  padding-bottom: 200px;
+}
+
+}
+@media only screen and (max-width: 1200px)
+{
+  .fam{
+    width: 100%;
+  }
+  .imager{
+    width:25%;
+  }
+  .find{
+  padding-left: 0;
+  }
+  .btnb{
+    left: 600px;
+  }
+}
+@media only screen and (max-width: 990px)
+{
+  .imager{
+    display: none;
+  }
+  .fam{
+    left: 0;
+
+  }
+  .fam{
+    display:none;
+  }
+  .btnb{
+    left: 300px;
+  }
+  .find{
+  font-size: 3rem;
+  }
+  .bot{
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  body{
+        text-align: center;
+        width: 100%;
+        overflow-x: hidden;
+  }
+  .container-fluid{
+    padding: 0;
+
+  }
+  .sec{
+    height: 1200px;
+    width: 100%;
+    margin: 0px;
+       padding: 0px;
+
+
+  }
+  .famcol{
+    padding: 0;
+  }
+
+
+  .imager{
+    display: none;
+  }
+
+  .imagel{
+    display: none;
+  }
+  .fam{
+    left: 0;
+    top:0;
+    display: none;
+  }
+  .famobile{
+    width: 100%;
+    display: inline;
+  }
+  .leftmobile{
+    display: inline;
+    position: absolute;
+    top:620px;
+  }
+  .tophr{
+    display: none;
+  }
+  .rightmobile{
+    display: inline;
+    top: 1000px;
+    position: absolute;
+    right: 15px;
+  }
+  .tex{
+    padding: 0;
+  }
+  .cen{
+
+    width: 100%;
+  }
+  .mid{
+    border-style: none;
+    border-top-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 30%;
+    margin-right:0 ;
+    margin-left: 180px;
+
+
+  }
+  .find{
+  padding: 0 100px 0 100px;
+
+  }
+  .log{
+    padding-top: 100px;
+
+  }
+
+  .how{
+    display: inline;
+    position: absolute;
+    top: 0;
+    left:550px;
+  }
+  .findc{
+    padding: 0 25px 200px 25px;
+  }
+
+   .navbar-collapse
+   {
+       background-color: #36313A;
+       height: 400px;
+   }
+   .navbar{
+     padding:0;
+   }
+   .navbar-brand{
+     padding-left: 10px;
+   }
+   .navpa{
+     position: absolute;
+     top:250px;
+     bottom:0;
+     left: 0;
+     width: 100%;
+     display: inline;
+   }
+   .fin{
+
+  width: 100%;
+
+   }
+   .but{
+
+background-image: none;
+width: 100%;
+   padding: 350px 0 0 100px;
+
+   }
+  .bot{
+    height: 400px;
+  }
+  .find{
+    font-size: 3rem;
+    padding: 50px 0 0 50px;
+  }
+  .btnb{
+    top: 300px;
+    left: 250px;
+  }
+  .footimb{
+  display: inline;
+  position: absolute;
+  width: 768px;
+  height: 200px;
+  left: 0;
+  }
+  .footima{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 576px)
+{
+.how{
+  left:350px;
+}
+.btnb{
+  left: 180px;
+}
+.linktop
+{
+  color:white;
+}
+.linktop{
+  float: left;
+
+}
+.icons{
+  left:-200px;
+}
+.ftext{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.leftmobile{
+  display: inline;
+  position: absolute;
+  top:680px;
+}
+}
