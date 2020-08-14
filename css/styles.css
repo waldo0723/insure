@@ -566,9 +566,12 @@ width: 100%;
 
 @media only screen and (max-width: 576px)
 {
+
+  .famcol{
+    width:100%;
+  }
   body{
 
-    overflow-x:hidden;
   }
 .how{
   left:250px;
@@ -611,5 +614,15 @@ width: 100%;
 }
 .btnb{
   top:50px;
+}
+.famcol{
+
+
+}
+.tex{
+  padding: 0 20px 0 20px;
+}
+.row{
+  margin: 0;
 }
 }
